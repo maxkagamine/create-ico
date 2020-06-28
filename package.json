@@ -1,5 +1,6 @@
 {
   "name": "create-ico",
+  "description": "Creates an optimized ico file with optional circular mask",
   "version": "1.0.0",
   "author": {
     "name": "Max Kagamine",
@@ -13,13 +14,31 @@
   },
   "dependencies": {
     "@shockpkg/icon-encoder": "^1.0.3",
-    "@types/imagemin": "^7.0.0",
-    "@types/sharp": "^0.25.0",
     "imagemin": "^7.0.1",
     "imagemin-pngquant": "^9.0.0",
     "sharp": "^0.25.4"
   },
   "devDependencies": {
+    "@types/imagemin": "^7.0.0",
+    "@types/sharp": "^0.25.0",
     "typescript": "^3.9.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkagamine/create-ico.git"
+  },
+  "keywords": [
+    "favicon",
+    "ico",
+    "icon",
+    "convert",
+    "png",
+    "sharp",
+    "pngquant",
+    "png to ico"
+  ],
+  "bugs": {
+    "url": "https://github.com/maxkagamine/create-ico/issues"
+  },
+  "homepage": "https://github.com/maxkagamine/create-ico#readme"
 }

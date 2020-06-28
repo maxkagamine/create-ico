@@ -1,5 +1,3 @@
-> **Currently in an experimental state and not yet published to npm.**
-
 # create-ico
 
 Creates an ico file from a single input image, using [sharp](https://sharp.pixelplumbing.com/) to resize the image to specified icon sizes (and apply an optional circular mask), [pngquant](https://pngquant.org/) to optimize the pngs, and [icon-encoder](https://github.com/shockpkg/icon-encoder) to assemble the ico (the older [to-ico](https://www.npmjs.com/package/to-ico) chokes on optimized pngs).
